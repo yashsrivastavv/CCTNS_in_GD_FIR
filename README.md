@@ -104,9 +104,12 @@ This program uses less time and provides the data we want to fetch through a lar
 <p align="left">
   <a href="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR">
     <img src="https://raw.githubusercontent.com/yashsrivastavv/CCTNS_in_GD_FIR/master/RAW/dask%20use.png" alt="Logo" width="500" height="100">
+    <h3 align="left">Dask Performance Output</h3>
  <p   align="right">
+   
   <a href="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR">
     <img src="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR/blob/master/RAW/pandas%20use.png" alt="Logo" width="500" height="100">
+    <h3 align="right">Pandas Performance Output</h3>
   </a>
 
 
