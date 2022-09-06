@@ -100,6 +100,12 @@ To get a local copy up and running follow these simple steps.
 
 This program uses less time and provides the data we want to fetch through a large CSV file in seconds using speech recognition.
 
+<br />
+<p align="left">
+  <a href="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR">
+    <img src="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR/tree/master/RAW" alt="Logo" width="300" height="100">
+  </a>
+
 
 
 <!-- ROADMAP -->
