@@ -1,5 +1,4 @@
-# CCTNS_in_GD_FIR
-# Wheezy-Personal-Assistant
+#CCTNS In GD & FIR
 
 <!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -14,7 +13,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/yashsrivastavv/Wheezy-Personal-Assistant">
-    <img src="https://cctns.rajasthan.gov.in/cctns/img/vscctnslogo.png?stov=CRRS-LEX1-JXJQ-V10M-CIXC-MJ3E-2B3C-9RZT" alt="Logo" width="150" height="100">
+    <img src="http://exploreodisha.in/wp-content/uploads/2017/10/cctns.png" alt="Logo" width="150" height="100">
   </a>
 
   <h3 align="center">CCTNS in GD and FIR</h3>
