@@ -12,13 +12,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/yashsrivastavv/Wheezy-Personal-Assistant">
+  <a href="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR">
     <img src="http://exploreodisha.in/wp-content/uploads/2017/10/cctns.png" alt="Logo" width="150" height="100">
   </a>
 
   <h3 align="center">CCTNS in GD and FIR</h3>
 
-  <p 
+  <p align="centre">
     <br />
     <a href="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR"><strong>Explore the docs »</strong></a>
     <br />
