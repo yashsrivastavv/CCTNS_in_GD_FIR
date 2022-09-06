@@ -18,7 +18,7 @@
 
   <h3 align="center">CCTNS in GD and FIR</h3>
 
-  <p align="centre">
+  <p align="center">
     <br />
     <a href="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR"><strong>Explore the docs »</strong></a>
     <br />
