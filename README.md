@@ -13,7 +13,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR">
-    <img src="http://exploreodisha.in/wp-content/uploads/2017/10/cctns.png" alt="Logo" width="150" height="100">
+    <img src="https://github.com/yashsrivastavv/CCTNS_in_GD_FIR/blob/master/RAW/vscctnslogo.png" alt="Logo" width="500" height="100">
   </a>
 
   <h3 align="center">CCTNS in GD and FIR</h3>
