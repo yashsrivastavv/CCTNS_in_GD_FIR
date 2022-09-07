@@ -25,10 +25,10 @@ def takeInput():
     except Exception as e:
         print("Say That Again Please...")
         return 'None'
-
     return query
 
 
-while True:
-    say = takeInput().lower()
+def work():
+    while True:
+        say = takeInput().lower()
 

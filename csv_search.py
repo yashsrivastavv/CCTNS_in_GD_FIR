@@ -4,11 +4,10 @@ import os
 import numpy as np
 import time
 import dask.dataframe as dd
-import csv
-# key_to_search = input('Enter the searching element: ')
+import main
+key_to_search = main.work()
 
 #optimised one
-key_to_search = 'CORN'
 start = time.time()
 dtypes = {
 
