@@ -21,7 +21,7 @@ def takeInput():
         print("Recognizing...")
         query = r.recognize_google(audio, language="en-in")
         print(f"User Said: {query}\n")
-        exit()
+        exit()                  '''Error: breaks the code after one query without executing the searching algorithm'''
     except Exception as e:
         print("Say That Again Please...")
         return 'None'
