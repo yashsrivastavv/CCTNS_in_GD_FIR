@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="823937e5-b536-43f3-955d-608b02073c79" name="Changes" comment="merged both the main.py and csv_search.py">
+    <list default="true" id="823937e5-b536-43f3-955d-608b02073c79" name="Changes" comment="Error: exit()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traffic_crashes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/traffic_crashes.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
       <recent name="C:\Users\iyash\PycharmProjects\UP_Police_Hackathon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.csv_search">
+  <component name="RunManager" selected="Python.main">
     <configuration name="csv_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UP_Police_Hackathon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662545013682</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Error: exit()">
+      <created>1662635608895</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662635608895</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +202,8 @@
     <MESSAGE value="searching through dask is done." />
     <MESSAGE value="added raw performance images" />
     <MESSAGE value="merged both the main.py and csv_search.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged both the main.py and csv_search.py" />
+    <MESSAGE value="Error: exit()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error: exit()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

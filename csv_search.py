@@ -1,13 +1,11 @@
 import pandas as pd
-import gc
-import os
 import numpy as np
 import time
 import dask.dataframe as dd
 import main
-key_to_search = main.work()
+# key_to_search = main.work()
+key_to_search = main.query
 
-#optimised one
 start = time.time()
 dtypes = {
 
@@ -19,12 +17,10 @@ dtypes = {
     "FID": "uint8"
 
 }
-# data = pd.read_csv('traffic_crashes.csv', delimiter=",")
 data = dd.read_csv('traffic_crashes.csv', delimiter=",")
-# data = csv.reader(open('traffic_crashes.csv', "r"), delimiter=",")
-
 end = time.time()
 print(end - start, 'sec')
-
-print(data[data['LOCAT'] == 'CORN'].head())
+var = key_to_search.lower()
+print(data[data['LOCAT'] == var].head())
+print(key_to_search)
 

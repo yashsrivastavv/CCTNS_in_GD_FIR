@@ -2,17 +2,18 @@ import sys
 import pyttsx3
 import speech_recognition as sr
 import datetime
-
+import csv_search
 engine = pyttsx3.init('dummy')
 voices = engine.getProperty('voices')
 
 engine.setProperty('voice', voices[0].id)
-
+global query
 
 
 def takeInput():
     """Take User input through microphone & returns string output """
     r = sr.Recognizer()
+
     with sr.Microphone() as source:
         print("Listening...")
         r.pause_threshold = 1
@@ -21,7 +22,8 @@ def takeInput():
         print("Recognizing...")
         query = r.recognize_google(audio, language="en-in")
         print(f"User Said: {query}\n")
-        exit()                  '''Error: breaks the code after one query without executing the searching algorithm'''
+        csv_search()
+        '''Error: breaks the code after one query without executing the searching algorithm'''
     except Exception as e:
         print("Say That Again Please...")
         return 'None'
