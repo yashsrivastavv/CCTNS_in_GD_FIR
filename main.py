@@ -2,7 +2,10 @@ import sys
 import pyttsx3
 import speech_recognition as sr
 import datetime
-import csv_search
+import pandas as pd
+import numpy as np
+import time
+import dask.dataframe as dd
 engine = pyttsx3.init('dummy')
 voices = engine.getProperty('voices')
 
@@ -22,7 +25,27 @@ def takeInput():
         print("Recognizing...")
         query = r.recognize_google(audio, language="en-in")
         print(f"User Said: {query}\n")
-        csv_search()
+        # key_to_search = query
+
+        start = time.time()
+        dtypes = {
+
+            "RKY": "object",
+            "LOCAT": "str",
+            "ACTION": "str",
+            "TRUCK": "str",
+            "BUS": "str",
+            "FID": "uint8"
+
+        }
+        data = dd.read_csv('traffic_crashes.csv', delimiter=",")
+        end = time.time()
+        print(end - start, 'sec')
+        var = query.upper()
+        print(data[data['LOCAT'] == var].head())
+        print(var)
+        exit()
+
         '''Error: breaks the code after one query without executing the searching algorithm'''
     except Exception as e:
         print("Say That Again Please...")
@@ -30,7 +53,7 @@ def takeInput():
     return query
 
 
-def work():
-    while True:
-        say = takeInput().lower()
+
+while True:
+    say = takeInput().lower()
 
