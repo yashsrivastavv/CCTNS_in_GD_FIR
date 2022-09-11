@@ -4,3 +4,4 @@ pandas==1.4.3
 nltk==3.7
 numpy~=1.23.2
 dask~=2022.8.0
+datetime==4.6
