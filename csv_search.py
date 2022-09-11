@@ -4,7 +4,7 @@ import time
 import dask.dataframe as dd
 import main
 # key_to_search = main.work()
-key_to_search = main.query
+key_to_search = query
 
 start = time.time()
 dtypes = {
