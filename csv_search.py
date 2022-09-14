@@ -1,4 +1,4 @@
-import pandas as pd
+'''import pandas as pd
 import numpy as np
 import time
 import dask.dataframe as dd
@@ -23,4 +23,4 @@ print(end - start, 'sec')
 var = key_to_search.lower()
 print(data[data['LOCAT'] == var].head())
 print(key_to_search)
-
+'''
