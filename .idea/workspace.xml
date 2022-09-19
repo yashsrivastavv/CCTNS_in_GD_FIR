@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="823937e5-b536-43f3-955d-608b02073c79" name="Changes" comment="Error: exit()">
+    <list default="true" id="823937e5-b536-43f3-955d-608b02073c79" name="Changes" comment="csv_search is used no more.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +185,42 @@
       <option name="project" value="LOCAL" />
       <updated>1662830791556</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merged the two files in one to execute at once.">
+      <created>1662890512538</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662890512538</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updated directory">
+      <created>1662890686805</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662890686805</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updated directory">
+      <created>1662890692887</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662890692887</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1662890776742</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662890776742</updated>
+    </task>
+    <task id="LOCAL-00016" summary="csv_search is used no more.">
+      <created>1663138392732</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663138392732</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +243,11 @@
     <MESSAGE value="added raw performance images" />
     <MESSAGE value="merged both the main.py and csv_search.py" />
     <MESSAGE value="Error: exit()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error: exit()" />
+    <MESSAGE value="Merged the two files in one to execute at once." />
+    <MESSAGE value="updated directory" />
+    <MESSAGE value="update" />
+    <MESSAGE value="csv_search is used no more." />
+    <option name="LAST_COMMIT_MESSAGE" value="csv_search is used no more." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

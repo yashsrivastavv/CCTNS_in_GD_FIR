@@ -25,6 +25,8 @@ def takeInput():
         print("Recognizing...")
         query = r.recognize_google(audio, language="en-in")
         print(f"User Said: {query}\n")
+        col_search= r.recognize_google(audio, language="en-in")
+        print(f"User Said: {col_search}\n")
         # key_to_search = query
 
         start = time.time()
@@ -42,7 +44,7 @@ def takeInput():
         end = time.time()
         print(end - start, 'sec')
         var = query.upper()
-        print(data[data['LOCAT'] == var].head())
+        print(data[data[col_search] == var].head())
         print(var)
         exit()
 
